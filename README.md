@@ -32,7 +32,7 @@ Additionally, CodeceptJS integrates with tools like Mocha, Chai, and Sinon, offe
 Furthermore, CodeceptJS provides useful features like capturing screenshots and videos during testing, along with clear and detailed test reports for better analysis.
 
 ## ARCHITECTURE OF CODECEPTJS
-![Codeceptjs Structure](image.png)
+![Codeceptjs Structure](images/image.png)
 
 ## OBJECTIVES OF USING CODECEPTJS FOR THIS PROJECT
 The objective of using CodeceptJS with the Puppeteer helper in this project is to implement three simple test cases: unsuccessful login, successful login, and logout (by querying elements using XPath). After that, we will integrate it with Testomat.io to manage the test cases for CodeceptJS.
@@ -45,15 +45,15 @@ Currently, there are many popular IDEs for JavaScript development, such as Visua
 
 Therefore, we need to download and install Visual Studio Code and the NodeJS library, as shown in the following images:
 
-![Alt text](image-1.png)
+![Alt text](images/image-1.png)
 
-![Alt text](image-2.png)
+![Alt text](images/image-2.png)
 
 After downloading, this is the result:
 
-![Alt text](image-3.png)
+![Alt text](images/image-3.png)
 
-![Alt text](image-4.png)
+![Alt text](images/image-4.png)
 
 First, we will create a new directory at a chosen location with a custom name. In this case, we will create a new folder named CodeCeptJS_DACK_Demo at the following path:
 ```
@@ -65,30 +65,30 @@ To create this folder using the command line (CMD), we use the following command
 mkdir CodeCeptJS_DACK_Demo
 ```
 
-![Alt text](image-5.png)
+![Alt text](images/image-5.png)
 
 After that, we will navigate to the newly created directory using the following command: 
 ```
 cd CodeCeptJS_DACK_Demo
 ```
 
-![Alt text](image-6.png)
+![Alt text](images/image-6.png)
 
 Next, we will open Visual Studio Code using the following command:
 ```
 code .
 ```
 
-![Alt text](image-7.png)
+![Alt text](images/image-7.png)
 
-![Alt text](image-8.png)
+![Alt text](images/image-8.png)
 
 To begin the CodeceptJS demo, we first initialize NPM by running the following command:
 ```
 npm init -y
 ```
 
-![Alt text](image-9.png)
+![Alt text](images/image-9.png)
 
 At this point, we will see the package.json file appear, as shown in the provided image.
 
@@ -108,7 +108,7 @@ This command will:
     <li>Save these dependencies under devDependencies in the package.json file.</li>    
 </ul>
 
-![Alt text](image-10.png)
+![Alt text](images/image-10.png)
 
 At this point, a new file named package-lock.json will appear at this <a href="https://duthanhduoc.com/blog/tai-sao-package-lock-json-ton-tai-va-cach-no-hoat-dong">web page</a> 
 
@@ -117,29 +117,29 @@ Next, we will initialize CodeceptJS using the following command:
 npx codeceptjs init
 ```
 
-![Alt text](image-11.png)
+![Alt text](images/image-11.png)
 
 After running the initialization command, a series of setup questions will appear. We will configure them as follows:
 
-![Alt text](image-12.png)
+![Alt text](images/image-12.png)
 
 Next, we will create a test file. First, we will write a test for an unsuccessful login attempt.
 
 To do this, navigate to the tests folder and create a new test file, for example:
 
-![Alt text](image-13.png)
+![Alt text](images/image-13.png)
 
 And our interface will look like this:
 
-![Alt text](image-14.png)
+![Alt text](images/image-14.png)
 
 Next, we will proceed with coding (here, we will demonstrate the pre-written code, so the file names, directory names, and paths may be different).
 
-![Alt text](image-15.png)
+![Alt text](images/image-15.png)
 
-![Alt text](image-16.png)
+![Alt text](images/image-16.png)
 
-![Alt text](image-17.png)
+![Alt text](images/image-17.png)
 
 Here, we will explain some key methods used in CodeceptJS:
 <ul>
@@ -158,9 +158,9 @@ In addition, there are many other useful methods that you can explore further at
 
 After completing the test demo, we will set up a reporter to store and generate test reports.
 
-![Alt text](image-18.png)
+![Alt text](images/image-18.png)
 
-![Alt text](image-19.png)
+![Alt text](images/image-19.png)
 
 Here, we are only providing an overview of the demo process. For a more detailed understanding of the demo, we will present it live during the final presentation of the Software Testing course.
 
